@@ -20,5 +20,6 @@ func SetUpRouter() *gin.Engine {
 	r.GET("/firsttopic", baseH.FirstTopic)
 	r.GET("/topiclist", baseH.TopicList)
 	r.GET("/firstrds", baseH.FirstRds)
+
 	return r
 }
