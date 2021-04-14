@@ -1,0 +1,18 @@
+{
+  "env": "qa",
+  "mysqlCfg": {
+    "DbName": "community",
+    "Host": {
+      "read": "rdswwwnpeszufnbrr8xoq140.mysql.rds.aliyuncs.com",
+      "write": "rdswwwnpeszufnbrr8xoq140.mysql.rds.aliyuncs.com"
+    },
+    "Port": 3306,
+    "Psw": "laoyuegoutest",
+    "User": "qa"
+  },
+  "redisDefault": {
+    "Addr": "r-bp1c567a657a6e14.redis.rds.aliyuncs.com:6379",
+    "DBNo": 0,
+    "Psw": "LOYOGOU2016redis"
+  }
+}
