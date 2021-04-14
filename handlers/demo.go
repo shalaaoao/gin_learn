@@ -15,6 +15,7 @@ func (h Handle) HelloHandler(c *gin.Context) {
 	success(c, gin.H{
 		"": "hello world",
 	})
+
 	//fail(c, "报错了")
 }
 
